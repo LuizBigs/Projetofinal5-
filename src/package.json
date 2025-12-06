@@ -2,10 +2,10 @@
   "name": "api-gerenciamento-tarefas",
   "version": "1.0.0",
   "description": "API para gerenciamento de tarefas com autenticação JWT",
-  "main": "src/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": ["api", "tarefas", "jwt", "mongodb"],
   "author": "",
