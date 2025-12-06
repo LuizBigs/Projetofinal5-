@@ -1,67 +1,60 @@
-# 🚀 API de Gerenciamento de Tarefas - Módulo 5
+# 🚀 API de Gerenciamento de Tarefas
+
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Express](https://img.shields.io/badge/Express-4.18-blue.svg)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-8.0-green.svg)](https://www.mongodb.com/)
+[![License: ISC](https://img.shields.io/badge/License-ISC-yellow.svg)](https://opensource.org/licenses/ISC)
 
 ## 📌 Sobre o Projeto
 
 API RESTful completa desenvolvida com **Node.js**, **Express** e **MongoDB** para gerenciamento de tarefas com autenticação JWT.
 
-✅ Todos os requisitos do Módulo 5 implementados
-✅ Pronta para deploy no Render
-✅ Documentação completa
-✅ Testes incluídos
+✅ Todos os requisitos do Módulo 5 implementados  
+✅ Pronta para deploy no Render  
+✅ Documentação completa  
+✅ Estrutura profissional organizada  
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+Projetofinal5-/
+├── src/                      # Código-fonte da API
+│   ├── middleware/          # Middlewares (autenticação)
+│   ├── models/              # Modelos do MongoDB
+│   ├── routes/              # Rotas da API
+│   └── server.js            # Servidor principal
+├── public/                   # Frontend (HTML, CSS, JS)
+│   ├── css/                 # Estilos
+│   └── *.html               # Páginas HTML
+├── docs/                     # Documentação completa
+├── .env                      # Variáveis de ambiente
+├── .gitignore               # Arquivos ignorados pelo Git
+├── package.json             # Dependências do projeto
+├── render.yaml              # Configuração do Render
+└── README.md                # Este arquivo
+
+```
 
 ---
 
 ## 📚 DOCUMENTAÇÃO COMPLETA
 
 ### 🎯 Começar Aqui:
-1. **[ENTREGA-MODULO-5.md](ENTREGA-MODULO-5.md)** - ⭐ Leia primeiro! Visão geral completa do projeto
-2. **[GUIA-DEPLOY-RENDER.md](GUIA-DEPLOY-RENDER.md)** - 📖 Guia passo a passo completo para deploy
-3. **[COMANDOS-RAPIDOS.md](COMANDOS-RAPIDOS.md)** - ⚡ Referência rápida de comandos
+1. **[docs/ENTREGA-MODULO-5.md](docs/ENTREGA-MODULO-5.md)** - ⭐ Leia primeiro! Visão geral completa
+2. **[docs/GUIA-DEPLOY-RENDER.md](docs/GUIA-DEPLOY-RENDER.md)** - 📖 Guia passo a passo para deploy
+3. **[docs/COMANDOS-RAPIDOS.md](docs/COMANDOS-RAPIDOS.md)** - ⚡ Referência rápida de comandos
 
 ### 📖 Documentação Técnica:
-- **[API-README.md](API-README.md)** - Documentação completa dos endpoints da API
-- **[DIAGRAMA-API.md](DIAGRAMA-API.md)** - Diagramas e arquitetura visual
-- **[TESTAR-LOCALMENTE.md](TESTAR-LOCALMENTE.md)** - Como testar a API localmente
-- **[EXEMPLOS-TESTE.md](EXEMPLOS-TESTE.md)** - Exemplos prontos para copiar e colar
+- **[docs/API-README.md](docs/API-README.md)** - Documentação completa dos endpoints
+- **[docs/DIAGRAMA-API.md](docs/DIAGRAMA-API.md)** - Diagramas e arquitetura visual
+- **[docs/TESTAR-LOCALMENTE.md](docs/TESTAR-LOCALMENTE.md)** - Como testar localmente
+- **[docs/EXEMPLOS-TESTE.md](docs/EXEMPLOS-TESTE.md)** - Exemplos prontos
 
 ### 🔧 Arquivos de Configuração:
-- **[.env.example](.env.example)** - Exemplo de variáveis de ambiente
-- **[thunder-collection.json](thunder-collection.json)** - Coleção Thunder Client/Postman
+- **[thunder-collection.json](docs/thunder-collection.json)** - Coleção Thunder Client/Postman
 - **[package.json](package.json)** - Dependências do projeto
-
----
-
-## 🏗️ Estrutura do Projeto
-
-```
-Projeto-3-main/
-│
-├── 📂 models/              # Modelos MongoDB
-│   ├── User.js            # Schema de usuário
-│   └── Tarefa.js          # Schema de tarefa
-│
-├── 📂 routes/              # Rotas da API
-│   ├── auth.js            # Autenticação (register, login)
-│   ├── usuarios.js        # Listar usuários
-│   └── tarefas.js         # CRUD de tarefas
-│
-├── 📂 middleware/          # Middlewares
-│   └── auth.js            # Verificação JWT
-│
-├── 📄 server.js            # Servidor Express
-├── 📄 package.json         # Dependências
-├── 📄 .env                 # Variáveis de ambiente (local)
-├── 📄 .gitignore           # Arquivos ignorados
-│
-└── 📂 docs/                # Documentação completa
-    ├── ENTREGA-MODULO-5.md
-    ├── GUIA-DEPLOY-RENDER.md
-    ├── API-README.md
-    ├── DIAGRAMA-API.md
-    ├── TESTAR-LOCALMENTE.md
-    ├── EXEMPLOS-TESTE.md
-    └── COMANDOS-RAPIDOS.md
-```
 
 ---
 
